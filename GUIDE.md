@@ -1,5 +1,7 @@
 # Using this server
 
+Side Note: This is a burner github account don't try to contact it, it is of no use.
+
 You have been handed a Garry's Mod Fallout roleplay server. This is the
 walkthrough for someone who has never seen it. `README-MIGRATION.md` beside this
 file records how the folder was built and what was taken out of it; the real

@@ -1,6 +1,6 @@
 # expandfallout
 a fallout roleplay helix schema for garry's mod
-
+[Important](IMPORTANT.md)
 [Guide](GUIDE.md)
 [docs](_docs/)
 

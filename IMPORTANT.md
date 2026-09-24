@@ -1,0 +1,3 @@
+In order to use this you need to download all the addons. Github doesn't allow for a big filehost so the zip is uploaded to https://archive.org/download/addons_202609 for your convience. Apologies.
+
+After downloading that zip, unzip it in garrysmod/addons (Don't have it create a new folder just unzip it all in that directory). (If you don't wanna download workshop addons, I'd highly recommend also unziping that in your actual game folder as well not just on the server. That will give you all the materials, textures, sounds, etc for it.)
