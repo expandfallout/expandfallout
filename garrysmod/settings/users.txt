@@ -1,0 +1,37 @@
+"Users"
+{
+	//
+	// This is your users file
+	//
+	// You can use this file to add people as admins on your server
+	// Add them to the relevant section
+	//
+	// If you're a Lua coder you can add your own sections and use them
+	// in your script by doing pl:IsUserGroup( "admin" ) etc
+	//
+	// FORMAT:  "AnyLabel"   "STEAM_0:X:XXXXXXXX"
+	//
+	// The label on the left is just a note for you - it can be anything.
+	// The value on the right MUST be the old-style STEAM_0: ID, NOT a
+	// SteamID64 (7656119...) and NOT a profile URL.
+	//
+	// This file is read when the SERVER STARTS, so restart srcds after
+	// editing it. Helix has no admin list of its own - it uses CAMI, which
+	// falls back to these usergroups when no admin mod is installed.
+	//
+	// The entries that were here have been removed from this copy. Put your
+	// own SteamID in below before the first real session, or nobody will
+	// have admin on this server.
+	//
+
+	"superadmin"
+	{
+		//"you"			"STEAM_0:0:00000000"
+	}
+
+	"admin"
+	{
+		//"someone"		"STEAM_0:0:00000000"
+	}
+
+}

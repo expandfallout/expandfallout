@@ -1,0 +1,1 @@
+[{"wastelander":{"behaviour":"patrol","health":100,"armour":{"armor_legion_legate_armor":true,"armor_legion_legate_helmet":true},"loot":[],"race":"human","dropArmour":0,"dropWeapon":0,"gender":"male","weapons":{"weapon_caustic_shotgun":true},"accuracy":1,"name":"Wastelander","side":"hostile","id":"wastelander"}}]

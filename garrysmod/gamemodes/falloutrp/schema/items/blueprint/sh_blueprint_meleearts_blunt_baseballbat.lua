@@ -1,0 +1,18 @@
+--[[
+	Baseball Bat blueprint.
+
+	GENERATED FILE. The roster is read from the installed weapons by
+	`_docs/tools/blueprints.py`; run `_docs/tools/genblueprints.py`.
+]]
+
+ITEM.name = "Baseball Bat Blueprint"
+ITEM.description = "Plans for building a Baseball Bat."
+ITEM.model = "models/mosi/fallout4/props/junk/burntmagazine.mdl"
+
+ITEM.width = 2
+ITEM.height = 1
+
+--- Which weapon it teaches; read by `ix.blueprint`.
+ITEM.weapon = "meleearts_blunt_baseballbat"
+
+ITEM.tint = Color(152, 112, 72)

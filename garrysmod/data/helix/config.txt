@@ -1,0 +1,1 @@
+[{"orbitalBeaconTime":10,"pkMuggingDuration":30,"injectorNeedsRestrained":false,"pkDuration":30,"warPointCapture":60,"raidMinPlayers":1,"warCooldown":1,"warMinPlayers":1,"day":2,"ambushCooldown":300}]

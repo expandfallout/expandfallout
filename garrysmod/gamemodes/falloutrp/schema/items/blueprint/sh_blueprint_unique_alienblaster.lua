@@ -1,0 +1,18 @@
+--[[
+	Alien Blaster blueprint.
+
+	GENERATED FILE. The roster is read from the installed weapons by
+	`_docs/tools/blueprints.py`; run `_docs/tools/genblueprints.py`.
+]]
+
+ITEM.name = "Alien Blaster Blueprint"
+ITEM.description = "Plans for building a Alien Blaster."
+ITEM.model = "models/mosi/fallout4/props/junk/schematic.mdl"
+
+ITEM.width = 2
+ITEM.height = 1
+
+--- Which weapon it teaches; read by `ix.blueprint`.
+ITEM.weapon = "unique_alienblaster"
+
+ITEM.tint = Color(74, 164, 164)

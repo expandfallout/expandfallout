@@ -1,0 +1,93 @@
+PLUGIN | LOC | FILES | DESC
+adv_crosshair                |    543 |    1 | Creates and editable crosshair.
+advanced_event_ents          |   1252 |    4 | Adds advanced event entities for more complex events, uses custom scripts to run code on use.
+advert                       |     31 |    1 | Adds the advert chat type.
+ambient                      |    510 |    1 | Adds ambient sounds to the world, works off teleporter setting your area.
+ambush                       |    108 |    2 | Adds ambushes that lets factions RDM eachother without a raid/hostilities.
+animdoors                    |    341 |    9 | Adds animated doors to the game. Lockable and can be opened with a keycard.
+antiafk                      |     83 |    2 | Anti Afk system that character kicks players after a set time of no input.
+areas                        |   1269 |    5 | Trigger based Area System.
+armorv2                      |  44634 |  688 | Adds equippable armors, uses NV animations.
+attributes                   |    817 |   19 | Adds attributes for characters.
+audit                        |    297 |    3 | Adds an audit system for Super Admins, can view char money and inventory.
+autocleanup                  |    133 |    1 | Cleans up shit automatically.
+bank                         |    119 |    2 | Add a Bank system, accessed through the menu.
+blackmarket                  |   1828 |    4 | Adds a blackmarket system for buying and selling items.
+bobbleheads                  |    239 |    9 | Adds equippable bobbleheads, SPECIAL bonuses and free perks.
+bountyboard                  |    175 |    3 | Spawnable board that permanently consumes a configurable item and tracks how many each faction has donated.
+branding                     |    215 |    3 | Adds branding, allows players to brand other players.
+buffs                        |     93 |    2 | Adds buffs to players, which can be applied through items or other means.
+capstash                     |     77 |    2 | Places down a stash of caps at a random position.
+capturepoints                |    445 |    4 | Adds Capture Points, points can be captured by factions and will give a bonus.
+caravans                     |   1063 |    6 | Periodically spawns caravans that players must defend to earn rewards.
+classnameviewer              |     68 |    1 | 
+co_house_ammobag             |    475 |    2 | Adds a bag that can be used to store ammunition for your weapons.
+co_house_scratchcard         |     39 |    4 | Adds a scratchcard item that can be used to win prizes.
+co_shi_bank                  |   2196 |    5 | Adds a banking system that allows shi to create and close accounts. Players can withdraw and deposit caps from their accounts for lowered transaction fees. Shi get a cut of the fees.
+crusifix                     |    170 |    2 | Adds a Legion Cursifix, a vehicle too torture prisoners.
+damageview                   |     84 |    2 | Shows the weapon damage when switing weapons.
+dismemberment                |    423 |    4 | Hit Group multipliers for weapons and head removals.
+doorbuster                   |    255 |    3 | Adds a Breaching Charge that can be used to break down (Unlock) doors.
+drugs_advanced               |   3005 |   26 | Adds advanced drugs, based off SS13's chemistry.
+drugs_simple                 |   1402 |   33 | Adds simple drugs.
+eventstaff                   |    170 |    2 | Temporary event armor and budgeted event item spawning.
+factionmanagement            |   1374 |    3 | Adds faction NCOs, Officers and Lead. Used to promote, demote, rename, kick and invite members.
+factionradio                 |    147 |    2 | Adds faction radio commands.
+factionshop                  |   2076 |   11 | Adds a faction shop to the F1 menu, allowing players to buy items from their faction.
+factionstorage               |    641 |    5 | Adds placeable faction storages that factions can use to store items.
+farming                      |    681 |   24 | Adds a farming system.
+fearrp                       |     41 |    2 | Implements FearRP, bind to inflict fear, resist and fear power.
+fishing                      |   1499 |   41 | Cast a line into open water, reel it in through a timing minigame, and catch a fish.
+flashlight                   |     30 |    2 | Provides a flashlight item to regular flashlight usage.
+flbuffs                      |    115 |    5 | Lets a faction leader wearing their leader armor rally their faction with a buff, once every 30 minutes.
+geck                         |   3603 |   10 | Adds the Guardian of Eden Creation Kit (G.E.C.K) item, which can be used to edit aspects of the server.
+geck_crafting                |   1386 |    6 | A GECK integration plugin for crafting. Allows for GECK created recipes to be used on the server, and for players to use a crafting station to craft items using those recipes.
+geck_looting                 |   3023 |    8 | A GECK integration plugin for loot containers and item tables. Uses a fake inventory for tetris based container inventories.
+geck_perks                   |    685 |    4 | A GECK integration plugin for custom perks.
+geck_sounds                  |    616 |    4 | A GECK integration plugin for 3d ambient sounds.
+geck_webserver               |    158 |    1 | A Webserver plugin used to network with the GECK for data creation, editing and retrieval. Used by other GECK plugins to retrieve data created in the GECK.
+guilds                       |   1662 |    5 | Player created Guilds for wastelanders, claim a base and recruit members to your cause.
+house_vault                  |    154 |    3 | A Vault that works with PCasino, gives house owners a percentage of loses.
+idreligioncards              |    300 |   16 | Adds equippable ID and Religion Cards.
+implants                     |    388 |   13 | Adds Implant items that provide buffs, removed when PKd.
+itemcrates                   |     86 |    7 | Item crates that hold a type of item, removing an item lowers the count.
+itemspawner                  |    484 |    1 | Adds a searchable, categorised NutScript item menu with rarity selection.
+karma                        |    246 |    2 | Adds Karma to players and factions.
+leveling                     |    244 |    4 | Leveling system for Fallout RP.
+lockpicking                  |    541 |    3 | Lockpicking to unlock doors, containers and teleports.
+mining                       |    461 |   15 | Adds Mining and Ore Deposits.
+moddable_weapons             |   3876 |  241 | Adds weapons that can be modifyed with attachments.
+modulators                   |    382 |    6 | Adds Modulators, can be attached to armors to provide buffs.
+netwatch                     |      6 |    1 | Network monitoring and spam detection. Use this for detecting and preventing abusive network behavior.
+openai                       |     10 |    2 | Adds in OpenAI integration for NPC dialogue and interactions.
+orbital_drops                |    726 |    5 | Periodically spawns orbital drops that players can loot.
+perks                        |   1771 |   21 | Fallout Perks, purchased with skill points.
+plants                       |    824 |   23 | Adds harvestable and edible plants.
+playerkilling                |    215 |    2 | Set PK active on players, if a player dies in that time they lose x levels and have to change their name.
+psyker                       |    956 |    3 | Adds Psyker powers, allowing players to use psychic abilities.
+radiation                    |    164 |    2 | Adds radiation that takes away from the players max health.
+radio                        |   1909 |   12 | Adds Radios that players can tune into and create.
+raid                         |   1495 |    4 | Adds the ability to raid and war with other factions.
+raidbosses                   |   3335 |    9 | Placeable static raid boss entities with health bars and phase triggers.
+raidbossteleporters          |    400 |    3 | Spawnable brahmin that, once fed the correct item, opens a timed teleporter to an admin-placed destination.
+refreshingshop               |     51 |    2 | Adds a shop that refreshes with random items every hour.
+requesters                   |     54 |    2 | Sends a derma promt to the player, allows them to send back a response.
+settingspage                 |    558 |    8 | Settings page in the f1 menu that players can use to adjust their preferences.
+slavery                      |    712 |    9 | Slave Collars and related functionality.
+smithing                     |   1168 |   52 | Forge iron bars into plates at an anvil, grind plates into power armor component shells at a grindstone, craft shells into unassembled power armor parts at the GECK component bench (blueprint-gated), and assemble those parts into finished power armor at a workbench.
+spawning                     |     80 |    3 | Placeable spawns, can be faction specific. Will open a spawn menu when players die.
+sporehive                    |     10 |    2 | Adds the Spore Hive, a hive of spore carriers that can be found in the world.  They have the ability to construct a hive that has several constructions and castes.
+squads                       |    253 |    2 | Adds a fallout 76 themed squad system.
+stamina                      |    169 |    1 | Adds a stamina system to limit running. Edited to work with Fallout Agility and Endurance attributes.
+stash                        |    195 |    3 | Adds placeable stash boxes that can be used to store items.
+thirsthunger                 |   1661 |   66 | Adds thirst and hunger to the game, which can be managed through items and food.
+tradeup                      |    925 |    4 | Allows players to trade up weapons of the same rarity for a random selected weapon of the next rarity.
+transformationchambers       |    314 |   13 | Adds transformation chambers that switch races/skin colors.
+trash                        |     89 |    3 | Adds a trash button to the inventory, allowing players to scrap items for experience.
+uniqueweapons                |      6 |    1 | Adds unique weapons to loot, then removing them from standard loot tables.
+vendingmachines              |    168 |    2 | Placeable vending machines that sell drinks.
+vertibirds                   |     86 |    3 | Adds Enclave vertibird entities that fly in, drop nuclear bombs, and fly away.
+wars                         |      6 |    1 | Adds Wars/Conquests. Places a capture points on each side that the attacking/defending faction has to capture to win.
+workbench                    |   2711 |    8 | Adds placeable workbenches that can be configured to slow craft items.
+zetan_language               |    383 |    1 | Translates Zetan-race IC speech into alien phoneme audio and glyphs.
+ziptying                     |    341 |    3 | Adds usable Zip Ties, used to tie up players so they can be searched and mugged.

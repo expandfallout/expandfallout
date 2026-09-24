@@ -1,0 +1,61 @@
+# ---------------------------------------------------------------------------
+# The addons folder is NOT in this repo.
+#
+# 45 folders, 26.7 GB. Thirty-six of them are Steam Workshop items that
+# re-download for free; the other nine are content that is backed up
+# separately in Drive. Git is the wrong place for 26 GB of game assets, and
+# on GitHub it would need a paid LFS data pack.
+#
+# To restore it on another machine: copy the addons folder back from Drive,
+# or rebuild the Workshop half from the list in the docs. The map's local
+# patch lives inside that folder too, so it comes back with it - except the
+# nodegraph, which is also kept in this repo at garrysmod/maps/graphs/ so
+# there is always a copy in version control.
+# ---------------------------------------------------------------------------
+garrysmod/addons/
+
+# ---------------------------------------------------------------------------
+# Runtime output. Written by the server, never edited by hand. The database
+# is excluded because it holds player characters and their Steam ids.
+# ---------------------------------------------------------------------------
+garrysmod/sv.db
+garrysmod/sv.db-wal
+garrysmod/sv.db-shm
+garrysmod/console.log
+garrysmod/clientside_errors.txt
+garrysmod/cache/
+garrysmod/download/
+garrysmod/downloadlists/
+garrysmod/logs/
+garrysmod/data/*.txt
+garrysmod/data/helix/logs/
+garrysmod/data/helix/falloutrp/logs/
+
+# ---------------------------------------------------------------------------
+# Engine files. These come from SteamCMD and re-download in minutes.
+# ---------------------------------------------------------------------------
+/bin/
+/platform/
+/sourceengine/
+/steamapps/
+/appcache/
+/depotcache/
+/steam_cache/
+/userdata/
+/config/
+/logs/
+/srcds*.exe
+/*.dll
+/*.mdmp
+garrysmod/bin/
+garrysmod/*.vpk
+garrysmod/fallbacks*
+
+# ---------------------------------------------------------------------------
+# Local noise
+# ---------------------------------------------------------------------------
+__pycache__/
+*.pyc
+.vscode/
+Thumbs.db
+desktop.ini

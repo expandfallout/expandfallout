@@ -1,0 +1,22 @@
+--[[
+	FEV Experimental Implant.
+
+	The item is only how it gets there - the bonuses, the rules and the
+	description all live in `ix.implants.list` under `synth`, which is what
+	makes them editable in `/liveedit`. See `items/base/sh_implant.lua`.
+
+	NO `ITEM.base` LINE. Helix takes the base from the FOLDER - `LoadFromDir`
+	loads `items/implant/*` with `base_implant` - so writing one here does not
+	add a base, it REPLACES the right one with whatever was typed:
+
+	    [Helix] Item 'implant_agility' has a non-existent base! (implant)
+]]
+
+ITEM.name = "FEV Experimental Implant"
+ITEM.implant = "synth"
+
+--[[
+	Rarer than the seven, and priced like it: a whole extra body's worth of
+	endurance is not something a wasteland doctor has a drawer of.
+]]
+ITEM.price = 9000

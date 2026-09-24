@@ -1,0 +1,18 @@
+--[[
+	Plasma Gatling blueprint.
+
+	GENERATED FILE. The roster is read from the installed weapons by
+	`_docs/tools/blueprints.py`; run `_docs/tools/genblueprints.py`.
+]]
+
+ITEM.name = "Plasma Gatling Blueprint"
+ITEM.description = "Plans for building a Plasma Gatling."
+ITEM.model = "models/mosi/fallout4/props/junk/schematic.mdl"
+
+ITEM.width = 2
+ITEM.height = 1
+
+--- Which weapon it teaches; read by `ix.blueprint`.
+ITEM.weapon = "weapon_plasmagatling"
+
+ITEM.tint = Color(176, 176, 186)

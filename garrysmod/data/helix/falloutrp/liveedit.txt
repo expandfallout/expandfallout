@@ -1,0 +1,1 @@
+[{"implant":[],"race":{"human":{"baseHealth":100}},"survival":[],"armor":{"armor_legion_legate_helmet":{"specialBonus.perception":2,"resistance":90}},"special":[],"aid":[],"weapon":{"ls_45_auto_pistol":{"Primary.Automatic":true,"Primary.Delay":0.01}}}]

@@ -1,0 +1,7 @@
+"falloutrp"
+{
+	"base" 			"helix"
+	"title" 		"Skeleton"
+	"author" 		"xxx"
+	"menusystem"	"1"
+}

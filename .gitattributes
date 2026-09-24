@@ -1,2 +1,34 @@
-# Auto detect text files and perform LF normalization
+# Line endings: git normalises text, and leaves binaries alone.
 * text=auto
+
+# ---------------------------------------------------------------------------
+# No Git LFS.
+#
+# With the addons folder kept out of this repo, nothing here comes close to
+# GitHub's 100 MB per-file limit: the largest file is under 1 MB. LFS would
+# add a dependency for no benefit, and it fails badly when it is missing -
+# anyone cloning without git-lfs installed would get a small text pointer
+# where a binary should be, which for a nodegraph would look like a working
+# file and behave like a broken one.
+#
+# The binary types below are marked so line-ending normalisation never
+# touches them. If a large binary is ever added here, add LFS back then.
+# ---------------------------------------------------------------------------
+*.ain  -text
+*.nav  -text
+*.bsp  -text
+*.mdl  -text
+*.vtx  -text
+*.vvd  -text
+*.phy  -text
+*.ani  -text
+*.vtf  -text
+*.pcf  -text
+*.wav  -text
+*.mp3  -text
+*.ogg  -text
+*.png  -text
+*.jpg  -text
+*.ttf  -text
+*.otf  -text
+*.db   -text
